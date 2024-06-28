@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Program>
+        <Name>pxml</Name>
+    </Program>
+    <Release>
+        <Version>1.0.0</Version>
+        <Release>Experimental</Release>
+        <Build>240628.02-100e</Build>
+    </Release>
+    <Config>
+        <Scheme>monokai</Scheme>
+    </Config>
+</Configuration>
