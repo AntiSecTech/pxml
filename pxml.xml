@@ -6,9 +6,9 @@
     <Release>
         <Version>1.0.0</Version>
         <Release>Experimental</Release>
-        <Build>240628.02-100e</Build>
+        <Build>240629-100e</Build>
     </Release>
     <Config>
-        <Scheme>monokai</Scheme>
+        <Scheme>github-dark</Scheme>
     </Config>
 </Configuration>

@@ -1,0 +1,79 @@
+.\" Manpage for pjson
+.TH PXML 1 "June 2024" "Version 1.0.0" "User Commands"
+.SH NAME
+pxml \- a simple XML parser
+.SH SYNOPSIS
+.B pxml
+.RI [ options ] " <file.json> [<key>]"
+.SH DESCRIPTION
+.B pxml
+is a lightweight and easy-to-use XML parser written in C.
+
+.SH OPTIONS
+.TP
+.B \-h, \-\-help
+Show help message and exit.
+.TP
+.B \-v
+Show version number and exit.
+.TP
+.B \-\-version
+Show detailed version information and exit.
+
+.SH USAGE
+.TP
+.B pxml \fI<file.xml>\fR
+Display the contents of the specified XML file with syntax highlighting.
+.TP
+.B pxml \fI<file.xml> <key>\fR
+Display the value associated with the specified key in the XML file.
+
+.SH EXAMPLES
+.TP
+.B pxml config.json
+Displays the contents of "\fIpxml.xml\fR" with syntax highlighting.
+.TP
+.B pxml config.json Config.scheme
+Displays the value of the "\fBScheme\fR" key within the "\fBConfig\fR" object in "\fIpxml.xml\fR".
+
+.SH CONFIGURATION
+.B pxml
+reads its configuration from a XML file located at
+.I /etc/pxml.xml.
+This configuration file contains information about the program, such as version, build, and release details, as well as the color scheme for syntax highlighting.
+
+.SH CUSTOMIZE
+The program utilizes \fBpygmentize\fR to provide syntax highlighting for YAML files.
+By default, it uses the color scheme specified in the \fIpxml.xml\fR file.
+However, users can customize the color scheme by modifying this configuration file.
+
+.SH COLOR SCHEMES
+\fBPygments\fR offers a variety of color schemes. Popular options include:
+
+.TP
+.I default
+.TP
+.I emacs
+.TP
+.I monokai
+
+.TP
+For a complete list of available styles, you can use the following command:
+.TP
+.BR pygmentize \ -L \ \fIstyles\fR
+
+.SH BUGS
+There are no known bugs in this program. If you find any bugs, please report them to the GitHub repository at <https://github.com/AntiSecTech/pxml/issues>.
+
+.SH COPYRIGHT
+\fBpxml\fR is licensed under the \fBMIT License\fR. See the \fILICENSE\fR file for more details.
+
+.SH AUTHOR
+.B pxml
+was developed by \fBAntiSecTech\fR. You can contact the author at <\fIcontact.antisec@pm.me\fR>.
+
+.SH SEE ALSO
+.BR libxml2-dev(3)
+
+.SH HISTORY
+Refer to the changelog at <https://github.com/AntiSecTech/pxml/blob/main/CHANGELOG.md> for detailed version history.
