@@ -31,7 +31,7 @@ This README provides a comprehensive guide to the project, including its feature
 **pxml** is a lightweight and efficient C program for parsing XML files.
 It allows retrieval of values based on specific keys and is ideal for configuration management and automation scripts.
 
-![GitHub Release](https://img.shields.io/github/v/release/AntiSecTech/pxml?display_name=release)
+![GitHub Release](https://img.shields.io/github/v/release/AntiSecTech/pxml?include_prereleases&display_name=release)
 ![GitHub License](https://img.shields.io/github/license/AntiSecTech/pxml)
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/AntiSecTech/pxml/total)
 
@@ -55,8 +55,8 @@ Please refer to the `changelog` for all information on current changes.
 
 You can view it [here](https://github.com/AntiSecTech/pxml/blob/main/CHANGELOG.md).
 
-![GitHub Release](https://img.shields.io/github/v/release/AntiSecTech/pxml?display_name=release)
-![GitHub Tag](https://img.shields.io/github/v/tag/AntiSecTech/pxml)
+![GitHub Release](https://img.shields.io/github/v/release/AntiSecTech/pxml?include_prereleases&display_name=release)
+![GitHub Tag](https://img.shields.io/github/v/tag/AntiSecTech/pxml?include_prereleases&label=build)
 
 ---
 
